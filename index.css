@@ -1,0 +1,161 @@
+body {
+    background-color: #08162B;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-menu {
+    width: 100%;
+    display: block;
+    list-style: none;
+    overflow: hidden;
+}
+.main-menu .left {
+    margin-top: 60px;
+    margin-left: 200px;
+    float: left;
+}
+.main-menu .right  {
+    display:block;
+    margin-right: 189px; 
+    text-decoration:none;
+    
+}
+.main-menu .right li {
+    color: white;
+    float: right;
+    text-decoration:none;
+    margin-top: 81px;
+    margin-left: 50px;
+}
+.main-menu .right li a {
+    color: white;
+    text-decoration:none;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 25px;
+} 
+.main-menu .right li a b {
+    border: 1px solid;
+    padding:11px 23px;
+    border: #F29494;
+    background-color: #F29494;
+    cursor: pointer;
+}
+.box1 {
+    position: absolute;
+    display: block;
+    width: 611px;
+    height: 294px;
+    left: 202px;
+    top: 180px;
+}
+.box1 .tekst1 {
+    position: absolute;
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 127px;
+    color: #FFFFFF;
+}
+.box1 .tekst2 {
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+margin-top: 220px;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: 0.5em;
+color: #EF9C9C;
+}
+.box1 .tekst3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top:54px;
+    line-height: 25px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.slika1 {
+    position: absolute;
+width: 966px;
+height: 929px;
+left: 861px;
+top: 125px;
+}
+.tablica {
+    position: absolute;
+    display: inline-flex;
+    margin-top: 100px;
+    top: 565px;
+    bottom: 100px;
+}
+.tablica h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.tablica h2 {
+    font-weight: 275;
+    font-size: 20px;
+    margin-top: -13%; 
+    padding-left: 60px;
+}
+.tablica .stupac1 {
+    width: 306px;
+    border-radius: 41px;
+    margin-right: 42px;
+    margin-left: -192px;
+    height: 372px;
+    top: 590px;
+    z-index: -1;
+    background: #2B3544;
+}
+.tablica .stupac2 {
+    width: 306px;
+    border-radius: 41px;
+    margin-right: 42px;
+    height: 372px;
+    left: 140px;
+    top: 590px;
+    font-style: normal;
+    text-align:center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 51px;
+    background: #2B3544;
+    color: #FFFFFF;
+}
+.tablica .stupac3 {
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 41px;
+    width: 306px;
+    margin-right: 42px;
+    height: 372px;
+    left: 485px;
+    top: 590px;
+    background: #2B3544;
+}
+.slika3 {
+    position: absolute;
+    left: 1827px;
+    top: 540px;
+    cursor: pointer;
+}
+.slika4 {
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    top: 1032.22px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+
+
+
+
